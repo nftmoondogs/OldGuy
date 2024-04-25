@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'LufgaBlack';
+    font-display: auto;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    src: url("../assests/fonts/LufgaLight.ttf")
+  }
+  
+
+.main {
+    height: 100%;
+    width: 150vw;
+    margin: auto;
+    /* padding: 3rem; */
+    /* background-color: red; */
+}
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 300vw;
+    }
+}
+
+
+.display {
+    margin-top: 20px;
+    position: relative;
+    max-width: 400px;
+    min-height: 240px;
+    border-radius: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.3) 0px 8px 30px 0px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+  }
+  
+  .displayBar {
+    background-color: #f1f1f1;
+    border-top-right-radius: 10px ;
+    border-top-left-radius: 10px ;
+    height: 45px;
+    display: flex;
+    padding: 4px;
+  }
+  
+  .displayBarIcons {
+    display: flex;
+    margin: auto;
+    height: 15px;
+    /* background-color: aqua; */
+    width: 55px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .displayBarIcon {
+    background-color: #bfbdbd;
+    border-radius: 20px;
+    width: 10.5px;
+    height: 10.5px;
+    margin: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+  }
+  
+  .displayBarSearchBox {
+    display: flex;
+    margin: auto;
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+    color:#000000 ;
+    padding: 5px;
+    align-items: center;
+    font-size: 12px;
+    background-color: #ffffff;
+    /* border-color:#666666;
+    border-style:solid;
+    border-width:1px;
+    background-color:transparent */
+  }
+  
+  .displayBarArrow {
+    display: flex;
+    margin: auto;
+  }
+
+  
+  .notes {
+    display: inherit;
+    justify-content:space-around;
+    align-items: inherit;
+    padding: 15px;
+    position: relative;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .notesHeader {
+    font-size:20px;
+    /* justify-content:space-between; */
+    /* display: flex; */
+    font-weight: 700;
+    color: #34332f;
+    font-family: "LufgaBlack";
+  }
+  
+  .notes p {
+    color: #34332f;
+    font-size: 14px;
+    margin-top: 22px;
+    line-height: 25px;
+    font-weight: 700;
+    font-family: "LufgaBlack";
+  }
+  
+  .notes li {
+    color: #666666;
+    font-size: 14px;
+    font-family: "LufgaBlack";
+    /* list-style:georgian; */
+    margin-top: 15px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+
+  .notes a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .picDisplay {
+    position: relative;
+    border-radius:10px;
+    margin:auto;
+    color:rgb(255, 255, 255);
+    width:fit-content;
+    align-items:center;
+    height:auto;
+    text-align:center;
+    justify-content:center;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 30px 0px;
+  }
+  
+  .code {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 6px;
+  }
+
+  .social {
+    display: flex;
+    width: 100px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 30px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    /* border-radius: 7px; */
+    background-color:#000000;
+    box-shadow: 0 0 0 0 rgba(7, 0, 0, 0.5);
+    animation: pulse 1.75s infinite cubic-bezier(0.26, 0, 0, 0.5);
+  }
+  
+  .social a {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @keyframes pulse {
+    to {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+  }
