@@ -14,7 +14,7 @@ export const ExploreAI = () => {
         <div>
             <img src="https://i.ibb.co/wgXQCtN/pump.gif" width="300" height="100" alt="Description of the image"/>
             <p>$OldGuy Token is launched via pump.fun Meta as it's currently the best way to ensure equal distribution</p>
-            <a href='https://pump.fun/board'><FiExternalLink style={{marginTop:"10px"}} size={25}/></a>
+            <a href='https://pump.fun/GExfeQVvYdMxb6Gnaq8dh8Xx7GZ9PaYBprwcYurzodEF'><FiExternalLink style={{marginTop:"10px"}} size={25}/></a>
         </div>
     
     )
