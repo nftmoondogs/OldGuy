@@ -36,7 +36,7 @@ export const Socials = () => {
     return (        
         <div style={{margin:"auto",textAlign:"center"}}> 
             <p>
-            <a href='https://twitter.com/'><VscTwitter style={{marginLeft: "5px"}}  size={40}/></a> 
+            <a href='https://twitter.com/oldguysol'><VscTwitter style={{marginLeft: "5px"}}  size={40}/></a> 
             <a href='https://t.me/oldguysocial'><FaTelegramPlane style={{marginLeft: "10px", marginRight: "7px"}} size={40}/></a>
             </p>
         </div>
