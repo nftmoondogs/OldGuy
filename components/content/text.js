@@ -13,7 +13,7 @@ export const ExploreAI = () => {
         
         <div>
             <img src="https://i.ibb.co/wgXQCtN/pump.gif" width="300" height="100" alt="Description of the image"/>
-            <p>$OldGuy Token is launched via degen.fund Meta as it's currently the best way to ensure equal distribution</p>
+            <p>$OldGuy Token is launched via pump.fun Meta as it's currently the best way to ensure equal distribution</p>
             <a href='https://pump.fun'><FiExternalLink style={{marginTop:"10px"}} size={25}/></a>
         </div>
     
