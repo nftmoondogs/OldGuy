@@ -26,7 +26,7 @@ export const Uiaftersex = () => {
         <div>
             <img src="https://i.ibb.co/cwnwx0c/5c5b90a0-1292-428b-8863-cf90c52d91c6.gif" width="370" height="300" alt="Description of the image"/>
             <p>Hop on $OldGuy's Telegram, where we're flipping web2 style coins truly old-school and calling dibs on the last Cadillac CTS in the lot.</p>
-            <a href='https://pump.fun/Hcey8wdKE3Qrw86y7SLmxDogDo16iWvSrdeV78JXpump'><FiExternalLink style={{marginTop:"10px"}} size={25}/></a>
+            <a href='https://pump.fun/board'><FiExternalLink style={{marginTop:"10px"}} size={25}/></a>
             <a href='https://t.me/oldguysocial'><FaTelegramPlane style={{marginLeft: "10px", marginRight: "7px"}} size={30}/></a>
         </div>
     )
